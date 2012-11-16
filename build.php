@@ -45,7 +45,7 @@ $project->main = function($tag = 'master', $label = '1.0') use ($project) {
 
 	// export git
 	$project->delete($dir53);
-	$project->gitClone('git://github.com/nette/nette.git', $tag, $dir53);
+	$project->gitClone('git://github.com/deep9/nette.git', $tag, $dir53);
 	$project->gitClone('git://github.com/nette/examples.git', $tag, "$dir53/examples");
 	$project->gitClone('git://github.com/nette/sandbox.git', $tag, "$dir53/sandbox");
 	$project->gitClone('git://github.com/nette/tools.git', NULL, "$dir53/tools");
